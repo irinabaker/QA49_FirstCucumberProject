@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomePage" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-11T09:34:39" hostname="DESKTOP-IDPAKS2" time="2.725">
+  <properties/>
+  <testcase name="Verify HomePage title is displayed" classname="HomePage" time="2.725"/>
+  <system-out><![CDATA[
+@navigate
+Scenario: Verify HomePage title is displayed ?[90m# src/test/resources/features/navigate.feature:4?[0m
+  ?[32mGiven ?[0m?[32mUser launches Chrome browser?[0m         ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.launch_Chrome_browser()?[0m
+  ?[32mWhen ?[0m?[32mUser opens ilCarro HomePage?[0m           ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.open_ilCarro_HomePage()?[0m
+  ?[32mThen ?[0m?[32mUser verifies HomePage title?[0m          ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.verify_HomePage_title()?[0m
+  ?[32mAnd ?[0m?[32mUser quites browser?[0m                    ?[90m# com.ilcarro.stepDefinitions.HomePageSteps.quite_browser()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
